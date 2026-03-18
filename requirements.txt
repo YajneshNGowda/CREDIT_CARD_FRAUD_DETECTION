@@ -1,0 +1,75 @@
+# ================================================================
+# Credit Card Fraud Detection — Python Dependencies
+# AI/ML Internship 2026 | Financial Services & FinTech
+# ================================================================
+# Install all:  pip install -r requirements.txt
+# Python:       3.8+ recommended (tested on 3.9, 3.10, 3.11)
+# ================================================================
+
+# ── Core Data Science ───────────────────────────────────────────
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# ── Machine Learning ────────────────────────────────────────────
+scikit-learn>=1.3.0
+imbalanced-learn>=0.11.0        # SMOTE oversampling (NB02)
+
+# ── Gradient Boosting Models ─────────────────────────────────────
+xgboost>=2.0.0                  # Primary model (NB03)
+lightgbm>=4.0.0                 # LightGBM comparison (NB05)
+
+# ── Explainability ──────────────────────────────────────────────
+shap>=0.43.0                    # SHAP TreeExplainer (NB03)
+
+# ── Visualisation ───────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.18.0
+
+# ── Jupyter Notebooks ───────────────────────────────────────────
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+ipykernel>=6.0.0
+ipywidgets>=8.0.0
+nbformat>=5.9.0
+
+# ── Model Persistence & Utilities ───────────────────────────────
+joblib>=1.3.0
+tqdm>=4.65.0
+
+# ── REST API — FastAPI Deployment (NB07) ─────────────────────────
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+httpx>=0.25.0
+
+# ── Streamlit Demo App ───────────────────────────────────────────
+streamlit>=1.28.0
+
+# ── Dataset Download ─────────────────────────────────────────────
+kaggle>=1.5.16
+
+# ── Optional: CatBoost (NB05 extra) ─────────────────────────────
+# catboost>=1.2.0
+
+# ── Optional: Deep Learning Autoencoder ──────────────────────────
+# tensorflow>=2.13.0
+# keras>=2.13.0
+
+# ================================================================
+# QUICK INSTALL OPTIONS
+# ================================================================
+#
+# Core only (NB01-NB03):
+#   pip install numpy pandas scipy scikit-learn xgboost \
+#               imbalanced-learn shap matplotlib seaborn \
+#               joblib jupyter
+#
+# Full project (NB01-NB07):
+#   pip install -r requirements.txt
+#
+# Deployment only (NB07 FastAPI server):
+#   pip install fastapi uvicorn pydantic httpx xgboost joblib
+#
+# ================================================================
