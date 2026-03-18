@@ -9,7 +9,6 @@
 [![SHAP](https://img.shields.io/badge/SHAP-0.43+-purple)](https://shap.readthedocs.io)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-teal)](https://fastapi.tiangolo.com)
 [![Streamlit](https://img.shields.io/badge/Demo-Streamlit-red)](https://streamlit.io)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ---
 
